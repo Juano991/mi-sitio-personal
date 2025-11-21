@@ -2,31 +2,40 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mis proyectos</title>
+    <title>Mis Proyectos</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="proyectos-body">
 
-    <h1>Proyectos realizados</h1>
-    <a href="index.html">Volver al inicio</a>
+    <header class="proyectos-header">
+        <h1>Mis Proyectos</h1>
+        <p>Estos son algunos de los proyectos que he desarrollado durante mi aprendizaje.</p>
+        <a href="index.html" class="boton volver-boton">Volver al inicio</a>
+    </header>
 
-    <div class="contenedor-proyectos">
+    <section class="contenedor-proyectos">
 
-        <div class="tarjeta">
-            <h2>Proyecto 1</h2>
-            <img src="img/banner.png" alt="Proyecto 1">
-            <p>Desarrollo de una página web básica usando HTML y CSS.</p>
-            <a href="https://github.com" target="_blank">Ver repositorio</a>
+        <div class="tarjeta-proyecto animada">
+            <img src="img/proyecto1.png" alt="Proyecto 1" class="img-proyecto">
+            <h2>Proyecto 1: Página Web Básica</h2>
+            <p>Desarrollo de una página web usando HTML y CSS desde cero y usando GitHub como Hosting.</p>
+            <a href="https://github.com/Juano991/mi-sitio-personal" target="_blank" class="boton boton-proyecto">Ver repositorio</a>
         </div>
 
-        <div class="tarjeta">
-            <h2>Proyecto 2</h2>
-            <img src="img/banner.png" alt="Proyecto 2">
-            <p>Formulario con base de datos usando PHP y MySQL (inspirado en el PDF).</p>
+        <div class="tarjeta-proyecto animada">
+            <img src="img/proyecto2.png" alt="Proyecto 2" class="img-proyecto">
+            <h2>Proyecto 2: Creación de una máscara con ojos móviles y con iluminación LED</h2>
+            <p>Máscara creada con impresión 3D, creación de ojos mecánicos animatronicos con iluminación LED responsiva, controlados por medio de un Joystick.</p>
         </div>
 
-    </div>
+        <div class="tarjeta-proyecto animada">
+            <img src="img/proyecto3.png" alt="Proyecto 3" class="img-proyecto">
+            <h2>Proyecto 3: Armado de Computador para Gaming</h2>
+            <p>Armado de un equipo de Cómputo personalizado para Gaming, con componentes especificos para la mejor relación Calidad-Precio, además de una estética llamativa y única para el Usuario.</p>
+        </div>
+
+    </section>
 
 </body>
 </html>
